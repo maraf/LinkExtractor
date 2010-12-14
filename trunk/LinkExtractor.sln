@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkExtractor", "LinkExtractor\LinkExtractor.csproj", "{A4764298-CCC6-44D7-8463-BD755ACF92C5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LinkExtractorInstaller", "LinkExtractorInstaller\LinkExtractorInstaller.vdproj", "{A886FDFE-5636-49EB-B676-BA1F0E286565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4764298-CCC6-44D7-8463-BD755ACF92C5}.Debug|x86.ActiveCfg = Debug|x86
+		{A4764298-CCC6-44D7-8463-BD755ACF92C5}.Debug|x86.Build.0 = Debug|x86
+		{A4764298-CCC6-44D7-8463-BD755ACF92C5}.Release|x86.ActiveCfg = Release|x86
+		{A4764298-CCC6-44D7-8463-BD755ACF92C5}.Release|x86.Build.0 = Release|x86
+		{A886FDFE-5636-49EB-B676-BA1F0E286565}.Debug|x86.ActiveCfg = Debug
+		{A886FDFE-5636-49EB-B676-BA1F0E286565}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
