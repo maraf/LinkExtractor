@@ -56,6 +56,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -80,6 +93,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -171,7 +197,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_B4905E94999B4C2781785B6E282F1D59"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -198,7 +224,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:LinkExtractor"
         "ProductCode" = "8:{ECD78B84-8FE2-4968-8349-DE5B75A765CE}"
-        "PackageCode" = "8:{7817B79C-A66A-4639-83B8-82E5E8587217}"
+        "PackageCode" = "8:{0289486D-B455-4CF8-AB6C-B63CD9E6CE95}"
         "UpgradeCode" = "8:{7755B73E-4E37-4801-9B39-EA6F90C145EA}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -206,7 +232,7 @@
         "DetectNewerInstalledVersion" = "11:FALSE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.1"
-        "Manufacturer" = "8:Marek Fišera"
+        "Manufacturer" = "8:Neptuo DEV"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:http://dev.neptuo.com"
         "Title" = "8:LinkExtractor"
